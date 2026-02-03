@@ -61,13 +61,13 @@ st.markdown("""
     }
     
     .stSelectbox > div > div {
-        background: red;
+        background: white;
         border-radius: 8px;
     }
     
     .stButton > button {
         background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
-        color: blue;
+        color: white;
         border: none;
         border-radius: 8px;
         padding: 0.75rem 2rem;
@@ -79,34 +79,6 @@ st.markdown("""
         transform: translateY(-2px);
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     }
-            /* FORCE TEXT VISIBILITY INSIDE CARDS */
-/* FORCE TEXT VISIBILITY INSIDE CARDS */
-.metric-card,
-.metric-card h2,
-.metric-card h3,
-.metric-card p,
-.flight-card,
-.flight-card h4,
-.flight-card p {
-    color: #111827 !important;  /* dark readable text */
-}
-
-/* Fix Streamlit metrics text */
-div[data-testid="stMetricValue"],
-div[data-testid="stMetricLabel"] {
-    color: #111827 !important;
-}
-
-/* Sidebar text fix */
-section[data-testid="stSidebar"] * {
-    color: #FFFFFF !important;
-}
-
-/* Input text visibility */
-input, textarea {
-    color: #000000 !important;
-}
-
 </style>
 """, unsafe_allow_html=True)
 
