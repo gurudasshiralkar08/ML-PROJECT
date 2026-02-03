@@ -61,13 +61,13 @@ st.markdown("""
     }
     
     .stSelectbox > div > div {
-        background: white;
+        background: red;
         border-radius: 8px;
     }
     
     .stButton > button {
         background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
-        color: white;
+        color: blue;
         border: none;
         border-radius: 8px;
         padding: 0.75rem 2rem;
