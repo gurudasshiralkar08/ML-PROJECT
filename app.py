@@ -80,6 +80,7 @@ st.markdown("""
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     }
             /* FORCE TEXT VISIBILITY INSIDE CARDS */
+/* FORCE TEXT VISIBILITY INSIDE CARDS */
 .metric-card,
 .metric-card h2,
 .metric-card h3,
